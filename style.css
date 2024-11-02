@@ -1,0 +1,33 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.text-green {
+    color: #32CD32;
+}
+
+header, footer {
+    background-color: #000;
+}
+
+.navbar .nav-link {
+    color: #32CD32 !important;
+    margin-right: 15px;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #00FF00 !important;
+    text-decoration: underline;
+    transform: translateY(-3px);
+
+}
+
+section h2 {
+    border-bottom: 2px solid #32CD32;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
