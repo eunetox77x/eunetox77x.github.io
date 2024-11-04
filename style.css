@@ -1,3 +1,8 @@
+.logo {
+    width: 50px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
 body {
     background-color: #000;
     color: #fff;
