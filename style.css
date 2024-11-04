@@ -1,6 +1,12 @@
 .logo {
-    width: 50px; /* Ajuste a largura conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 50px; 
+    height: auto; 
+    transition: transform 0.3s ease, filter 0.3s ease; 
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px #32CD32); 
 }
 
 body {
